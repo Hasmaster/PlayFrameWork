@@ -1,0 +1,8 @@
+New log file opened at Wed Mar 15 07:43:45 IST 2017 by 10528@DESKTOP-GSRVCL4
+Taking next connection to: 51867
+Checking to see if clients are empty...
+No non-daemon clients connected after 3 min. Shutting down.
+Server socket thread exiting.
+0 clients open, will close them...
+All client sockets have been closed.
+Closing the 10528@DESKTOP-GSRVCL4 logs at Wed Mar 15 07:46:46 IST 2017, goodbye.

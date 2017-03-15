@@ -1,0 +1,33 @@
+@(title : String , heading : String , message : String)
+
+@main(title) {
+
+  <html>
+    <head>
+      <link rel="stylesheet" type="text/css" href='@routes.Assets.versioned("stylesheets/bootstrap.min.css")'>
+      <link rel="stylesheet" type="text/css" href='@routes.Assets.versioned("stylesheets/play.css")'>
+      <link rel="stylesheet" type="text/css" href='@routes.Assets.versioned("stylesheets/font-awesome.min.css")'>
+    </head>
+    <body>
+      <div class="container">
+        <div class="row">
+          <br><br>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <h1 class="text-center" >@heading</h1>
+            <h1 class="text-center login-title">@message</h1>
+            <br><br/>
+            <p class="text-center">Click <a href="@routes.AuthenticationController.index()">
+              <span>Here</span></a> to go back to the Login Page</p>
+          </div>
+          <div class="row">
+
+          </div>
+        </div>
+      </div>
+    </body>
+  </html>
+}

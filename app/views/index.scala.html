@@ -1,0 +1,33 @@
+@(message: String)
+
+    @main("Home Page") {
+
+        <html>
+            <head>
+                <link rel="stylesheet" type="text/css" href='@routes.Assets.versioned("stylesheets/bootstrap.min.css")'>
+                <link rel="stylesheet" type="text/css" href='@routes.Assets.versioned("stylesheets/play.css")'>
+                <link rel="stylesheet" type="text/css" href='@routes.Assets.versioned("stylesheets/font-awesome.min.css")'>
+            </head>
+            <body>
+                <div class="container">
+                    <div class="row">
+                        <br><br>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <h1 class="text-center" >Howdy! @message</h1>
+                            <h1 class="text-center login-title">Welcome to Play Framework Authentication Example by Hasitha Walpola.</h1>
+                            <br><br/>
+
+                        </div>
+                        <div class="row">
+
+                            </div>
+                        </div>
+                    </div>
+            </body>
+        </html>
+    }
+
