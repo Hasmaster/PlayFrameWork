@@ -17,6 +17,7 @@ import static play.libs.Json.toJson;
  * @author  Hasitha Walpola
 
  */
+//functions
 
 public class AuthenticationController extends Controller {
 
